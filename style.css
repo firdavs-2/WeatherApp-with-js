@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url("./church-g78c9613d9_1920.jpg");
+    background-size: cover;
+    display: flex;
+}
+
+.left_block,
+.right_block {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    height: 50px;
+    width: 35%;
+    font-size: 20px;
+    outline: none;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.499);
+    color: #fff;
+    padding-left: 10px;
+}
+
+.input:focus {
+    background-color: rgba(255, 255, 255, 0.699);
+    border: 3px solid white;
+}
+
+.content {
+    width: 70%;
+    height: 70%;
+}
+
+.country {
+    font-size: 45px;
+    color: #fff;
+}
+.date{
+    font-size: 20px;
+    color:rgba(255, 255, 255, 0.695);
+}
+.temp{
+    font-size: 85px;
+    margin: 30px 40px;
+    color:#fff; 
+}
+.condition{
+    font-size:30px;
+    color:#fff;
+}
+.tempCases{
+    font-size: 20px;
+    color:rgba(255, 255, 255, 0.747);
+}
+.modal{
+    width: 300px;
+    height: 70px;
+    border:2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color:rgba(255, 255, 255, 0.179);
+    background-repeat: blur(2px);
+    font-size: 17px;
+    box-shadow: silver 0px 0px 15px;
+    margin-top: 10px;
+}
+.modal_block{
+    position: absolute;
+    right: 0px;
+}
+.fade{  
+   transform: translateY(-200%);
+   transition: all 0.7s ease-in-out;
+}
+.none{
+    display: none;
+}
+
+
